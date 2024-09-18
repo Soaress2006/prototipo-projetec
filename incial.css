@@ -87,12 +87,14 @@ h1 {
 /* Rodapé */
 .footer {
     width: 100%;
-    background-color: #b30000; /* Fundo vermelho no rodapé */
+    background-color: #b30000; 
     color: white;
     padding: 10px 0;
-    text-align: center;
+
     position: fixed;
     bottom: 0;
+    align-items: center;
+    
 }
 .icones {
     justify-content: center;
@@ -100,5 +102,4 @@ h1 {
     padding: 10px; 
     display: flex;
     justify-content: center;
-    align-items: center;
     
