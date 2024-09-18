@@ -86,7 +86,7 @@ h1 {
 
 /* Rodapé */
 .footer {
-    width: 100%;
+    width: 100vw;
     background-color: #b30000; 
     color: white;
     padding: 10px 0;
