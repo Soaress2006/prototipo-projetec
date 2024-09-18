@@ -95,7 +95,7 @@ h1 {
     bottom: 0;
 }
 .icones {
-   
+    justify-content: center;
     border-radius: 10px; 
     padding: 10px; 
     display: flex;
