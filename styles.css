@@ -50,3 +50,23 @@ h1 {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+.categoria {
+  margin: 20px;
+}
+
+.categoria h2 {
+  text-align: center;
+}
+
+.fotos-saladas, .fotos-sempre, .fotos-especial {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
