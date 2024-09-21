@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #ffcccc, #ffffff); /* Gradiente de vermelho claro até branco */
+    background: linear-gradient(to top,#df6e6e, #eee4e4); /* Gradiente de vermelho claro até branco */
     padding: 20px;
 }
 
@@ -24,7 +24,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Galeria de Imagens */
+
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsivo para ajustar as imagens */
@@ -45,28 +45,63 @@ h1 {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Efeito hover nas imagens */
+
 .gallery-item img:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-.categoria {
-  margin: 20px;
-}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Tom de fundo suave */
+  }
+  
+  .categoria {
+    margin: 40px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to top, #df6e6e, #eee4e4);
+  }
+  
 
-.categoria h2 {
-  text-align: center;
-}
-
-.fotos-saladas, .fotos-sempre, .fotos-especial {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-img {
-  width: 150px;
-  height: auto;
-  border-radius: 8px;
-}
-
+  
+  .categoria h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .fotos {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Aumente o valor para um espaçamento maior entre as imagens */
+    margin-top: 20px;
+  }
+  
+  
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.3s;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  .dia-semana {
+    background: linear-gradient(to bottom, #df6e6e, #eee4e4);
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dia-semana h1 {
+    color: #333; /* Texto em cor escura para contraste */
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
